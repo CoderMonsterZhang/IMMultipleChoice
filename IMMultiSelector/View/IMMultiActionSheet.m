@@ -319,7 +319,7 @@
                 for (int i = 0; i < weak_self.sheetContentView.layouts.items.count; i++) {
                     NSInteger row = [weak_self.sheetContentView.dataPickerView selectedRowInComponent:i];
                     [items addObject:weak_self.sheetContentView.layouts.items[i][row]];
-                    [indexes addObject:[NSString stringWithFormat:@"%ld",(long)row]];
+                    [indexes addObject:@(row).stringValue];
                 }
                 weak_self.getterResponseComplete(isConfirm, items);
                 [weak_self cancel];
