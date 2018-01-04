@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (IMAdd)
+@interface UIView (IMChoiceAdd)
 
 @property (assign, nonatomic) CGFloat sy_x;
 @property (assign, nonatomic) CGFloat sy_y;

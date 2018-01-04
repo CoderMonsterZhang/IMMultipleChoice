@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (IMAdd)
+@interface UIImage (IMChoiceAdd)
 
 
 /**

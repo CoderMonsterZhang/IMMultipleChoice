@@ -7,8 +7,8 @@
 //
 
 #import "IMMultiActionSheet.h"
-#import "UIView+IMAdd.h"
-#import "NSString+IMAdd.h"
+#import "UIView+IMChoiceAdd.h"
+#import "NSString+IMChoiceAdd.h"
 
 #define kWindow [UIApplication sharedApplication].keyWindow
 

@@ -6,9 +6,9 @@
 //  Copyright © 2017年 iDoctor. All rights reserved.
 //
 
-#import "NSString+IMAdd.h"
+#import "NSString+IMChoiceAdd.h"
 
-@implementation NSString (IMAdd)
+@implementation NSString (IMChoiceAdd)
 
 @dynamic conversionsUrl;
 

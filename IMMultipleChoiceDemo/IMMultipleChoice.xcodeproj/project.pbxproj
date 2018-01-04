@@ -19,9 +19,9 @@
 		72E55A951FF088C1005970B6 /* IMMultiLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A8F1FF088C1005970B6 /* IMMultiLayout.m */; };
 		72E55A961FF088C1005970B6 /* IMMultiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A901FF088C1005970B6 /* IMMultiItem.m */; };
 		72E55A971FF088C1005970B6 /* IMMultiActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A931FF088C1005970B6 /* IMMultiActionSheet.m */; };
-		72E55A9F1FF08A43005970B6 /* UIImage+IMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A9A1FF08A43005970B6 /* UIImage+IMAdd.m */; };
-		72E55AA01FF08A43005970B6 /* NSString+IMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A9B1FF08A43005970B6 /* NSString+IMAdd.m */; };
-		72E55AA11FF08A43005970B6 /* UIView+IMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A9C1FF08A43005970B6 /* UIView+IMAdd.m */; };
+		72E55A9F1FF08A43005970B6 /* UIImage+IMChoiceAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A9A1FF08A43005970B6 /* UIImage+IMChoiceAdd.m */; };
+		72E55AA01FF08A43005970B6 /* NSString+IMChoiceAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A9B1FF08A43005970B6 /* NSString+IMChoiceAdd.m */; };
+		72E55AA11FF08A43005970B6 /* UIView+IMChoiceAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E55A9C1FF08A43005970B6 /* UIView+IMChoiceAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,12 +66,12 @@
 		72E55A901FF088C1005970B6 /* IMMultiItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMultiItem.m; sourceTree = "<group>"; };
 		72E55A921FF088C1005970B6 /* IMMultiActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMultiActionSheet.h; sourceTree = "<group>"; };
 		72E55A931FF088C1005970B6 /* IMMultiActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMultiActionSheet.m; sourceTree = "<group>"; };
-		72E55A991FF08A43005970B6 /* UIView+IMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IMAdd.h"; sourceTree = "<group>"; };
-		72E55A9A1FF08A43005970B6 /* UIImage+IMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IMAdd.m"; sourceTree = "<group>"; };
-		72E55A9B1FF08A43005970B6 /* NSString+IMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMAdd.m"; sourceTree = "<group>"; };
-		72E55A9C1FF08A43005970B6 /* UIView+IMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IMAdd.m"; sourceTree = "<group>"; };
-		72E55A9D1FF08A43005970B6 /* NSString+IMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMAdd.h"; sourceTree = "<group>"; };
-		72E55A9E1FF08A43005970B6 /* UIImage+IMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IMAdd.h"; sourceTree = "<group>"; };
+		72E55A991FF08A43005970B6 /* UIView+IMChoiceAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IMChoiceAdd.h"; sourceTree = "<group>"; };
+		72E55A9A1FF08A43005970B6 /* UIImage+IMChoiceAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IMChoiceAdd.m"; sourceTree = "<group>"; };
+		72E55A9B1FF08A43005970B6 /* NSString+IMChoiceAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMChoiceAdd.m"; sourceTree = "<group>"; };
+		72E55A9C1FF08A43005970B6 /* UIView+IMChoiceAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IMChoiceAdd.m"; sourceTree = "<group>"; };
+		72E55A9D1FF08A43005970B6 /* NSString+IMChoiceAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMChoiceAdd.h"; sourceTree = "<group>"; };
+		72E55A9E1FF08A43005970B6 /* UIImage+IMChoiceAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IMChoiceAdd.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,12 +198,12 @@
 		72E55A981FF08A43005970B6 /* Catagories */ = {
 			isa = PBXGroup;
 			children = (
-				72E55A991FF08A43005970B6 /* UIView+IMAdd.h */,
-				72E55A9C1FF08A43005970B6 /* UIView+IMAdd.m */,
-				72E55A9B1FF08A43005970B6 /* NSString+IMAdd.m */,
-				72E55A9D1FF08A43005970B6 /* NSString+IMAdd.h */,
-				72E55A9A1FF08A43005970B6 /* UIImage+IMAdd.m */,
-				72E55A9E1FF08A43005970B6 /* UIImage+IMAdd.h */,
+				72E55A991FF08A43005970B6 /* UIView+IMChoiceAdd.h */,
+				72E55A9C1FF08A43005970B6 /* UIView+IMChoiceAdd.m */,
+				72E55A9B1FF08A43005970B6 /* NSString+IMChoiceAdd.m */,
+				72E55A9D1FF08A43005970B6 /* NSString+IMChoiceAdd.h */,
+				72E55A9A1FF08A43005970B6 /* UIImage+IMChoiceAdd.m */,
+				72E55A9E1FF08A43005970B6 /* UIImage+IMChoiceAdd.h */,
 			);
 			path = Catagories;
 			sourceTree = "<group>";
@@ -343,13 +343,13 @@
 			files = (
 				72E55A941FF088C1005970B6 /* IMMutiCell.m in Sources */,
 				72E55A411FF0887F005970B6 /* ViewController.m in Sources */,
-				72E55AA01FF08A43005970B6 /* NSString+IMAdd.m in Sources */,
+				72E55AA01FF08A43005970B6 /* NSString+IMChoiceAdd.m in Sources */,
 				72E55A961FF088C1005970B6 /* IMMultiItem.m in Sources */,
 				72E55A4C1FF0887F005970B6 /* main.m in Sources */,
 				72E55A3E1FF0887F005970B6 /* AppDelegate.m in Sources */,
-				72E55A9F1FF08A43005970B6 /* UIImage+IMAdd.m in Sources */,
+				72E55A9F1FF08A43005970B6 /* UIImage+IMChoiceAdd.m in Sources */,
 				72E55A971FF088C1005970B6 /* IMMultiActionSheet.m in Sources */,
-				72E55AA11FF08A43005970B6 /* UIView+IMAdd.m in Sources */,
+				72E55AA11FF08A43005970B6 /* UIView+IMChoiceAdd.m in Sources */,
 				72E55A951FF088C1005970B6 /* IMMultiLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
