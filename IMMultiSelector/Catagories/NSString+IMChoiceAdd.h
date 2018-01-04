@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSString (IMAdd)
+@interface NSString (IMChoiceAdd)
 
 @property (nonatomic, copy, readonly) NSURL *conversionsUrl;
 

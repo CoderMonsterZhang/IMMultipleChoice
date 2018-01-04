@@ -7,7 +7,7 @@
 //
 
 #import "IMMultiLayout.h"
-#import "NSString+IMAdd.h"
+#import "NSString+IMChoiceAdd.h"
 
 @implementation IMMultiLayout
 

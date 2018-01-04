@@ -6,10 +6,10 @@
 //  Copyright © 2017年 iDoctor. All rights reserved.
 //
 
-#import "UIImage+IMAdd.h"
+#import "UIImage+IMChoiceAdd.h"
 #import <MediaPlayer/MediaPlayer.h>
 
-@implementation UIImage (IMAdd)
+@implementation UIImage (IMChoiceAdd)
 
 
 #pragma mark -

@@ -6,9 +6,9 @@
 //  Copyright © 2017年 monsters_zhang. All rights reserved.
 //
 
-#import "UIView+IMAdd.h"
+#import "UIView+IMChoiceAdd.h"
 
-@implementation UIView (IMAdd)
+@implementation UIView (IMChoiceAdd)
 
 - (void)setSy_x:(CGFloat)sy_x
 {
