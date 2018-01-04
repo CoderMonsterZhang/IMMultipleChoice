@@ -313,7 +313,7 @@
     
     _footerView.touchFooterComplete = ^(BOOL isConfirm) {
         if (weak_self.getterResponseComplete) {
-            if ((weak_self.layouts.pickerState = IMMultiDataPicker)) {
+            if (weak_self.layouts.pickerState == IMMultiDataPicker) {
                 NSMutableArray *indexes = [NSMutableArray array];
                 NSMutableArray *items = [NSMutableArray array];
                 for (int i = 0; i < weak_self.sheetContentView.layouts.items.count; i++) {
