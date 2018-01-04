@@ -344,6 +344,7 @@
 #pragma mark - 数据布局
 - (void)setLayouts:(IMMultiLayout *)layouts
 {
+    _layouts = layouts;
     _titleView.sy_h = layouts.titleViewHeight;
     _titleView.layouts = layouts;
     if (layouts.height > 0) {
