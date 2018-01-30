@@ -62,7 +62,7 @@
 - (IBAction)multipleChoice {
     
     NSMutableArray *arr = @[].mutableCopy;
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < 13; i++) {
         IMMultiItem *item = [IMMultiItem new];
         item.title = [NSString stringWithFormat:@"我是多选%d",i];
         item.identifier = @(i).stringValue;

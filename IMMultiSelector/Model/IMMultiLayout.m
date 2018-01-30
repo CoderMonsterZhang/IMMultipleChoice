@@ -31,8 +31,8 @@
 {
     if (self.pickerState == IMMultiDataPickerNone) {
         CGFloat contentHeight = self.items.count * kItemHeight;
-        self.isScrollEnable = contentHeight >= kScreenSize.height ? YES : NO;
-        return contentHeight >= kScreenSize.height ? kItemHeight * 10 : contentHeight;
+        self.isScrollEnable = contentHeight >= kScreenSize.height - 100 ? YES : NO;
+        return contentHeight >= kScreenSize.height - 100 ? kItemHeight * 10 : contentHeight;
     } else {
         return 200;
     }
